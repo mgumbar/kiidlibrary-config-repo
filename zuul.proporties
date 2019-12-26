@@ -4,5 +4,4 @@ server.port 9004
 eureka.client.serviceUrl.defaultZone: http://localhost:9102/eureka/
 #eureka.client.serviceUrl.defaultZone: http://192.168.1.16:9102/eureka/
 #eureka.client.serviceUrl.defaultZone: http://${EUREKA_HOST}:9102/eureka/
-
-zuul.sensitiveHeaders=Cookie,Set-Cookie
+zuul.sensitiveHeaders=
